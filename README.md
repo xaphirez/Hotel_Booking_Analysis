@@ -148,17 +148,63 @@ Dashboard Features:
 
 ---
 
-# 💡 Key Business Insights
+## 💡 Key Business Insights
 
-✔ Peak booking demand occurs during the holiday season, highlighting strong seasonality in hotel reservations.
+### 📅 Seasonality & Demand
+✔ **August is the peak arrival month** with 11,069 bookings — 
+  2.4x more than January (4,553), the quietest month, confirming 
+  a strong summer-driven demand pattern.
 
-✔ City Hotels and Resort Hotels exhibit distinct customer booking patterns and occupancy trends.
+✔ **Monday is the busiest arrival day** with 13,869 arrivals, 
+  likely driven by corporate travelers checking in at the start 
+  of the working week.
 
-✔ Booking cancellations account for a significant portion of reservations, presenting opportunities to improve cancellation management strategies.
+✔ **Revenue grows consistently year-over-year** — August 2015 
+  generated £1.4M, growing to £2.7M in 2016 (+91%) and £3.1M 
+  in 2017 (+16%).
 
-✔ Travel Agencies and Online Travel Agents (OTAs) generate the majority of bookings.
+### ❌ Cancellations
+✔ **27.83% overall cancellation rate** — significantly above the 
+  20% industry benchmark, representing a major revenue risk.
 
-✔ Bed & Breakfast (BB) is the most popular meal plan among guests.
+✔ **City Hotel cancellation rate (30.44%) is 6.69 percentage 
+  points higher** than Resort Hotel (23.75%), suggesting 
+  business travelers and OTA bookings contribute to higher 
+  cancellations at city properties.
+
+### 👥 Customer Behavior
+✔ **96.58% of guests are first-time visitors** — well below the 
+  15-20% returning guest industry benchmark, indicating a 
+  significant loyalty program opportunity.
+
+✔ **Average stay duration is 3.67 nights** with 75% of guests 
+  staying 5 nights or less, confirming the hotel caters 
+  primarily to short-stay travelers.
+
+✔ **Average booking lead time is 50 days** (median) — though 
+  the mean is pulled to 80.6 days by outliers, suggesting 
+  most guests plan approximately 7 weeks ahead.
+
+### 📊 Booking Channels
+✔ **86.78% of bookings come through travel agents** — creating 
+  heavy dependency on third-party channels and reducing profit 
+  margins through commission fees.
+
+✔ **Only 7.74% of bookings are direct** — a significant missed 
+  opportunity since direct bookings carry no commission costs.
+
+### 🍽️ Operations
+✔ **Bed & Breakfast (BB) accounts for 77.8% of all meal plan 
+  selections** — guests strongly prefer breakfast-only packages 
+  while dining outside the hotel for other meals.
+
+✔ **Only 8.44% of guests require parking** — suggesting most 
+  guests arrive by public transport, plane, or taxi, presenting 
+  an opportunity to partner with transportation services.
+
+✔ **13.43% of guests received a room upgrade** while only 0.63% 
+  were downgraded — a 21:1 upgrade-to-downgrade ratio reflecting 
+  strong operational consistency.
 
 ---
 
