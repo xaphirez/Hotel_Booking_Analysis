@@ -284,27 +284,46 @@ https://public.tableau.com/app/profile/sebastian8348/vizzes
 
 ---
 
-# 👨‍💻 Author
+## 👨‍💻 About Me
 
-## Sebastian Berto
+**Sebastian Berto**
+IT Graduate | Aspiring Data Analyst | Bandung, Indonesia
 
-Computer Science Graduate passionate about:
+I am an IT graduate with hands-on experience in data cleaning, 
+exploratory data analysis, feature engineering, and dashboard 
+development. Currently building a data analytics portfolio 
+targeting Junior Data Analyst and Reporting Analyst roles in 
+Indonesia's growing tech industry.
 
-- Data Analytics
-- Business Intelligence
-- Data Engineering
+### 🛠 Technical Skills
+- **Languages:** Python, SQL
+- **Libraries:** pandas, matplotlib
+- **Databases:** MySQL
+- **Visualization:** Google Looker Studio, Tableau Public
+- **Tools:** Jupyter Notebook, VS Code, Git, GitHub
+- **Office:** Microsoft Excel, PowerPoint, Word
 
-### Connect with me
+### 📂 Portfolio Projects
 
-- 💼 LinkedIn  
-  https://www.linkedin.com/in/sebastian-berto/
+| Project | Tools | Link |
+|---|---|---|
+| UK E-Commerce Sales Analysis | Python, pandas, matplotlib, Looker Studio | [GitHub](https://github.com/xaphirez/ecommerce-analysis) |
+| Hotel Booking Demand Analytics | Python, pandas, matplotlib, Tableau | This repository |
 
-- 📊 Tableau Public  
-  https://public.tableau.com/app/profile/sebastian8348/vizzes
+### 🤝 Connect With Me
 
-- 💻 GitHub  
-  https://github.com/xaphirez
+💼 **LinkedIn:** https://www.linkedin.com/in/sebastian-berto/
 
+📊 **Tableau Public:** https://public.tableau.com/app/profile/sebastian8348/vizzes
+
+💻 **GitHub:** https://github.com/xaphirez
+
+📧 **Email:** sebastianberto007@gmail.com
+
+---
+
+*Open to Junior Data Analyst, Reporting Analyst, and Business 
+Intelligence Analyst opportunities in Indonesia.*
 ---
 
 ## ⭐ If you found this project interesting, feel free to star the repository and connect with me on LinkedIn!
