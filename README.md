@@ -101,17 +101,46 @@ Performed data quality checks and preprocessing by:
 
 ---
 
-## 2️⃣ Feature Engineering
+## 🔄 Feature Engineering
 
-Created additional business metrics including:
+The following features were derived from existing columns to 
+support deeper analysis and more meaningful visualizations:
 
-- Total Guests
-- Total Nights
-- Total Revenue
-- Arrival Date
-- Arrival Month
-- Room Upgrade Indicator
+| Feature | Derivation | Purpose |
+|---|---|---|
+| `total_nights` | `stays_in_weekend_nights + stays_in_week_nights` | Total length of stay per booking |
+| `total_guests` | `adults + children + babies` | Total number of guests per booking |
+| `total_revenue` | `adr × total_nights` | Estimated revenue per booking |
+| `arrival_date` | Combined `year + month + day` columns | Proper datetime for time-based analysis |
+| `YearMonth` | Extracted from `arrival_date` | Monthly grouping for trend analysis |
+| `arrival_day` | Extracted from `arrival_date` | Day of week analysis |
+| `is_room_upgraded` | `reserved_room_type != assigned_room_type` | Whether guest received a different room |
+| `room_change` | Comparison of room tier rankings | Classifies room change as Upgraded, Downgraded, or No Change |
+| `reserved_room_tier` | Alphabetical ranking of room types (A=1 to H=8, L=9) | Numerical room tier for upgrade/downgrade comparison |
+| `assigned_room_tier` | Same ranking applied to assigned room | Paired with reserved tier for direction of change |
+| `is_agent_booking` | `agent != 0` | Flags bookings made through a travel agent |
+| `is_company_booking` | `company != 0` | Flags bookings made through a corporate account |
 
+### Key Engineering Decisions
+
+**Room Change Classification**
+Rather than simply flagging whether a room changed, we assigned 
+numerical tiers to each room type (A through L) to determine the 
+**direction** of the change — distinguishing between upgrades and 
+downgrades. This revealed a 21:1 upgrade-to-downgrade ratio that 
+a simple boolean flag would have missed.
+
+**Revenue Estimation**
+Since the dataset contains ADR (Average Daily Rate) rather than 
+total revenue, `total_revenue` was engineered by multiplying ADR 
+by total nights stayed. This enabled meaningful revenue analysis 
+at the booking level.
+
+**Booking Channel Flags**
+`is_agent_booking` and `is_company_booking` were created as 
+boolean flags to simplify segmentation analysis. A value of 0 
+in the `agent` or `company` columns was treated as a direct 
+booking — enabling clear comparison between booking channels.
 ---
 
 ## 3️⃣ Exploratory Data Analysis (EDA)
